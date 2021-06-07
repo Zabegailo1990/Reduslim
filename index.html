@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="root">
+	<div class="layout">
+		<div class="container">
+			<div class="promo">
+				<div class="promo__item">
+					<h4 class="promo__name">Reduslim</h4>
+					<h4 class="promo__name">eco</h4>
+				</div>	
+				<div class="promo__item">
+					<img class="promo__img" src="./images/picture/promo__img.png" alt="" >
+				</div>
+			</div> 
+			<div class="feedback">
+				<div class="feedback__title">
+					<h2 class="title">Сделай шаг к выздоровлению</h2>
+				</div>
+				<form class="feedback__form" action="">
+					<label class="feedback__label" for="name" >введите <span class="feedback__colored-text">имя</span></label>
+					<input class="input feedback__name" id="name" type="text" placeholder="Алексей"></input>
+					<label class="feedback__label" for="phone" >введите <span class="feedback__colored-text">номер</span></label>
+					<div class="feedback__row">
+						<input class="input feedback__phone" id="phone" type="text" placeholder="+7 (123) 456-78-90"></input>
+						<div class="dropdown">
+							<!-- plugin JQ DD -->
+							<div class="translate_wrapper">
+								<div class="current_lang">
+									<div class="lang">
+										<span class="lang__txt" data-value='ru'>RU</span>
+										<img class="lang__img" src="./images/icons/ru.svg">
+									</div>
+								</div>
+								<div class="more_lang">
+									<div class="lang selected" data-value='ru'>
+										<span class="lang__txt">RU</span>     
+										<img class="lang__img" src="./images/icons/ru.svg">
+								  	</div>  
+									<div class="lang" data-value='en'>
+										<span class="lang__txt">EN</span>
+										<img class="lang__img" src="./images/icons/en.svg">   
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="button feedback__button">Заказать
+						<img class="feedback__icon" src="./images/icons/feedback__icon.svg" alt="">
+					</button>
+				</form>
+			</div>
+		</div>
+		<div class="secure">
+			<div class="secure__item">Trusted</div>
+			<div class="secure__item"><img class="secure__icon" src="./images/icons/secure__icon.svg" alt="" ></div>
+			<div class="secure__item">Secure</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>

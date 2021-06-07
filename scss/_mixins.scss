@@ -1,0 +1,7 @@
+@import '_vars.scss';
+
+@mixin media-tablet {
+    @media (min-width: $mediaTablet) {
+        @content;
+    }
+}
